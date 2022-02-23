@@ -1,15 +1,15 @@
+/* OVERALL STYLE */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* color for entire page */
 body {
     background-color: #d9dcd6;
 }
 
-/* apply styles to header */
+/* STYLE HEADER */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,6 +43,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* STYLE TEXT */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -52,20 +53,7 @@ p {
     font-size: 16px;
 }
 
-/* apply styles to footer */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
-
-/* Style Hero */
+/* STYLE HERO */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,12 +63,7 @@ footer h2 {
     background-position: center;
 }
 
-/* Stlye content section */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* STYLE CONTENT SECTION */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -89,6 +72,12 @@ footer h2 {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .content-article {
@@ -109,7 +98,7 @@ footer h2 {
     font-size: 36px;
 }
 
-/* Style benefits section */
+/* STYLE BENEFITS SECTION */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -121,24 +110,30 @@ footer h2 {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+/* STYLE FOOTER */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
 }
